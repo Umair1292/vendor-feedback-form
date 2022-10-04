@@ -1,0 +1,8 @@
+<template>
+    <div class="form-control">
+        <label class="label cursor-pointer">
+            <span class="label-text">Remember me</span> 
+            <input type="checkbox" checked="checked" class="checkbox" />
+  </label>
+</div>
+</template>
