@@ -3,7 +3,7 @@
     <div class="card lg:w-[50rem] md:w-full bg-base-100 shadow-xl my-10">
       <div class="card-body">
         <p class="text-lg py-7">
-          How helpful is the Account Management team in resolving your issues?
+          How helpful is LAAM’s <b>Account Management</b> team in resolving your issues?
         </p>
         <div class="flex justify-center items-center lg:gap-10 md:gap-7">
           <div>Not at all likely</div>

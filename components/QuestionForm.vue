@@ -3,7 +3,7 @@
     <div class="card lg:w-[50rem] md:w-full bg-base-100 shadow-xl my-10">
       <div class="card-body">
         <p class="text-lg py-7">
-          How likey you would recommend LAAM to other brands?
+          How satisfied are you with your experience at <b>LAAM </b> ?
         </p>
         <div class="flex justify-center items-center lg:gap-10 md:gap-7">
           <div>Not at all likely</div>
@@ -98,6 +98,17 @@ export default {
       // if(value = 2) {
       //   console.log('in val 1 question1', value)
         this.$store.commit('newStore/set_val_1', value)
+      if ((this.$store.state.newStore.val_1 === 3) || (this.$store.state.newStore.val_1 === 4) || (this.$store.state.newStore.val_1 === 5)) {
+        console.log("Conditional-1", value)
+        this.$store.commit('newStore/set_val_11', 0)
+        this.$store.commit('newStore/set_val_12', 0)
+        this.$store.commit('newStore/set_val_13', 0)
+        this.$store.commit('newStore/set_val_14', 0)
+
+      }
+      // else {
+      //   this.$store.commit('newStore/set_val_11', value)
+      // }
       // }
             // this.$emit('rating',value); 
             // to send val to parent

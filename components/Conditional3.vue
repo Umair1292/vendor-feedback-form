@@ -2,7 +2,7 @@
         <div class="card lg:w-[50rem] md:w-full bg-base-100 shadow-xl my-10">
             <div class="card-body">
                 <p class="text-lg py-7">
-                    How satisfied are you with LAAM’s order pick-up and delivery system?
+                    How satisfied are you with LAAM’s payments process?
                 </p>
                 <div class="flex justify-center items-center lg:gap-10 md:gap-7">
                     <div>Not at all likely</div>

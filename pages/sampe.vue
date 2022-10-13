@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <div class="stack-small">
       <div class="custom-checkbox">
         <input type="checkbox" class="checkbox" :id="id" :checked="isDone"
@@ -14,4 +14,4 @@
         </button>
       </div>
     </div>
-  </template>
+  </template> -->

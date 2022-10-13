@@ -2,7 +2,7 @@
     <div class="card lg:w-[50rem] md:w-full bg-base-100 shadow-xl my-10">
       <div class="card-body">
         <p class="text-lg py-7">
-          What is the one thing we can do to make your experience?
+          What can we do to improve your experience?
         </p>
         <div>
           <textarea class="textarea textarea-bordered w-full" placeholder="Your Suggestion"></textarea>

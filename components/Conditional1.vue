@@ -23,8 +23,16 @@ export default {
     name: "QuestionForm",
     methods: {
         radioInput11(value) {
-            console.log("VALUE", value)
+            // // console.log("Conditional-1", this.$store.state.newStore.val_1)
             this.$store.commit('newStore/set_val_11', value)
+            // if ((this.$store.state.newStore.val_1 === 3) || (this.$store.state.newStore.val_1 === 4) || (this.$store.state.newStore.val_1 === 5)) {
+            //     console.log("Conditional-1", value)
+            //     this.$store.commit('newStore/set_val_11', 0)
+
+            // }
+            // else {
+            //     this.$store.commit('newStore/set_val_11', value)
+            // }
         },
     }
 }

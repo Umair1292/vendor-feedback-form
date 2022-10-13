@@ -35,6 +35,7 @@ const state = () => ({
         val_11: 0,
         val_12: 0,
         val_13: 0,
+        val_14: 0,
         val_21:0
     })
  const mutations = {
@@ -61,6 +62,10 @@ const state = () => ({
             console.log("in val 13 Store",value)
             state.val_13 = value
         },
+            set_val_14(state, value) {
+        console.log("in val 14 Store",value)
+        state.val_14 = value
+        },
         set_val_21(state, value) {
             console.log("in val 21 Store",value)
             state.val_21 = value
@@ -68,8 +73,6 @@ const state = () => ({
         
     }
 
-// store.commit('increment');
-// console.log(store.state.count);
 
 export default {
     state, mutations
